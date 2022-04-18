@@ -3,16 +3,18 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>-->
     <div>
     <h1>Rick and Morty</h1>
+    <list-characters/>
   </div>
 </template>
 
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
-
+import ListCharacters from '@/components/ListCharacters'
 export default {
   name: 'App',
   components: {
     //HelloWorld
+    ListCharacters
   }
 }
 </script>
