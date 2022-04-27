@@ -36,7 +36,7 @@ export default {
     width: 400px;
     border: none;
     border-radius: 10px;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
 }
 </style>
